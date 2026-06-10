@@ -15,4 +15,4 @@ ESTRUCTURA DEL PROYECTO
 
 EJECUCIÓN
 
-src/main.py
+pip install -r requeriments.txt
