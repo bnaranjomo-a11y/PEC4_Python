@@ -32,8 +32,9 @@ def plot_matches_team_total(matches_team_total: pd.DataFrame) -> plt.Figure:
     Args:
         matches_team_total(pd:.DataFrame): partidos totales por equipo
     Returns:
-        None
-        """
+        plt.Figure: Figura generada
+    """
+        
 #creamos la gráfica de barras, ajustamos el tamaño
 #ajustamoslos ejes: en el eje "x" los equipos y en el eje "y" el número de partidos
 #ponemos las leyendas y ajustamos la rotación de los nombres en el "x" ha 90º
@@ -46,3 +47,4 @@ def plot_matches_team_total(matches_team_total: pd.DataFrame) -> plt.Figure:
     plt.tight_layout()
 
     return fig
+    
