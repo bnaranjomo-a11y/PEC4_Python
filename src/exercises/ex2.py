@@ -20,12 +20,6 @@ def total_matches(data: pd.DataFrame) -> pd.DataFrame:
   matches_team_total=matches_team_total.sort_values("Partidos jugados",ascending=False)
   return matches_team_total
 
-#ejecutamos la función, mostramos los 10 primeros equipos
-#mostramos tambien los equipos con el máximo número de partidos
-matches_team_total=total_matches(data)
-display(matches_team_total.head(10))
-max_matches=matches_team_total["Partidos jugados"].max()
-
 def plot_matches_team_total(matches_team_total: pd.DataFrame) -> plt.Figure:
     """"
     La función represetan el número total de partidos jugados por equipo.
