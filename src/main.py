@@ -11,7 +11,7 @@ from exercises.ex5 import add_points, fun_total_points, alltime_winner
 from exercises.ex6 import (fun_total_goals,fun_total_goals_by_team,fun_summary_1996_2025,podium)
 from exercises.ex7 import graf
 
-FILE="src/data/Partidos de LaLiga.csv"
+FILE="src/data/LaLiga_Matches.csv"
 
 
 def main():
