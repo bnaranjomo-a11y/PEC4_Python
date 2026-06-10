@@ -1,5 +1,5 @@
 from typing import Tuple
-import matplotib.pyplot as plt
+import matplotlib.pyplot as plt
 import pandas as pd
 
 def fun_total_goals(data: pd.DataFrame) -> Tuple[int, int, int]:
@@ -47,11 +47,11 @@ def fun_total_goals_by_team(data: pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFr
 #ordenamos los equipos de mayor a menor número de goles totales
     total_goals_by_team=total_goals_by_team.sort_values("total_goals",ascending=False)
     
-  return home_goals_by_team, away_goals_by_team,total_goals_by_team
+    return home_goals_by_team, away_goals_by_team,total_goals_by_team
 
 
 def fun_summary_1996_2025(
-    df_total_poitns: pd.DataFrame,
+    df_total_points: pd.DataFrame,
     home_goals_by_team: pd.DataFrame, 
     away_goals_by_team: pd.DataFrame,
     total_goals_by_team: pd.DataFrame) -> pd.DataFrame:
