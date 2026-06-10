@@ -5,9 +5,9 @@ Alumno: Brandon Naranjo
 
 from exercises.ex1 import load_and_eda, plot_home_away_goals
 from exercises.ex2 import total_matches, plot_matches_team_total
-from exercises.ex3 import golas_distribution, plot_goals_distribution
+from exercises.ex3 import goals_distribution, plot_goals_distribution
 from exercises.ex4 import FTR, plot_FTR
-from exercises.ex5 import add_points; fun_total_points; alltime_winner
+from exercises.ex5 import add_points, fun_total_points, alltime_winner
 from exercises.ex6 import (fun_total_goals,fun_total_goals_by_team,fun_summary_1996_2025,podium)
 from exercises.ex7 import graf
 
@@ -25,7 +25,7 @@ def main():
      fig1=plot_home_away_goals(data)
      fig1.savefig("src/img/grafica_ex1_Brandon_Naranjo.png")
      
-     print("Ejericicio 2")
+     print("\nEjercicio 2")
      matches_team_total=total_matches(data)
      print(matches_team_total.head(10))
      print(matches_team_total[matches_team_total["Partidos jugados"]==matches_team_total["Partidos jugados"].max()])
