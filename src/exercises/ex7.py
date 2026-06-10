@@ -1,6 +1,6 @@
 from typing import List
 import networkx as nx
-import matplotlib,pyplot as plt
+import matplotlib.pyplot as plt
 import pandas as pd
 
 def graf(data: pd.DataFrame, selected_teams: List[str]) -> plt.Figure:
