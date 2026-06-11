@@ -23,3 +23,12 @@ EJECUCIÓN PARA GRAFICOS
 - pip install -r requeriments.txt
 - python -m unittest tests/test_ex6.py
 
+COMPROBACIÓN DE LINTING
+
+Instalación de pylint:
+- pip install pylint
+
+Ejecutar pylint
+- pylint src/exercises/*.py
+  
+
