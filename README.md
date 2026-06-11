@@ -13,9 +13,13 @@ ESTRUCTURA DEL PROYECTO
  - screemshots: resultados del análisis
  - tests: eje6. fun_total_goals
 
-EJECUCIÓN
+EJECUCIÓN PARA GRAFICOS
 
 - pip install -r requeriments.txt
 - python  src/main.py
+
+ 
+ EJECUCIÓN PARA test ejex6
+- pip install -r requeriments.txt
 - python -m unittest tests/test_ex6.py
 
