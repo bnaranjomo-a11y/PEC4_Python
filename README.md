@@ -17,4 +17,5 @@ EJECUCIÓN
 
 - pip install -r requeriments.txt
 - python  src/main.py
+- python -m unittest tests/test_ex6.py
 
