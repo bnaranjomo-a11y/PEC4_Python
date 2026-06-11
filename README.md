@@ -11,7 +11,7 @@ ESTRUCTURA DEL PROYECTO
  - src/exercises: 1,2,3,4,5,6,7
  - src/img: gráficos
  - screemshots: resultados del análisis
- - tests:
+ - tests: fun_total_goals
 
 EJECUCIÓN
 
