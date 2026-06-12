@@ -11,7 +11,8 @@ ESTRUCTURA DEL PROYECTO
  - src/exercises: 1,2,3,4,5,6,7
  - src/img: gráficos
  - screemshots: resultados del análisis
- - tests: eje6. fun_total_goals
+ - tests: test_exe6.py (fun_total_goals)
+ - doc: documentación HTML 
 
 EJECUCIÓN PARA GRAFICOS
 
@@ -38,6 +39,9 @@ DOCUMENTACIÓN (PYDOC)
 - python -m pydoc -w src.exercises.ex4
 - python -m pydoc -w src.exercises.ex5
 - python -m pydoc -w src.exercises.ex6
-- python -m pydoc -w src.exercises.ex7 
+- python -m pydoc -w src.exercises.ex7
+
+Mover archivos HTML generados
+- mv *.html doc/
   
 
