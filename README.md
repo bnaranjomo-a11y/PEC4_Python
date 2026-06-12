@@ -19,7 +19,7 @@ EJECUCIÓN PARA GRAFICOS
 - python  src/main.py
 
  
- EJECUCIÓN PARA test ejex6
+ EJECUCIÓN DEL TEST
 - pip install -r requeriments.txt
 - python -m unittest tests/test_ex6.py
 
@@ -30,5 +30,14 @@ Instalación de pylint:
 
 Ejecutar pylint
 - pylint src/exercises/*.py
+
+DOCUMENTACIÓN (PYDOC)
+- python -m pydoc -w src.exercises.ex1
+- python -m pydoc -w src.exercises.ex2
+- python -m pydoc -w src.exercises.ex3
+- python -m pydoc -w src.exercises.ex4
+- python -m pydoc -w src.exercises.ex5
+- python -m pydoc -w src.exercises.ex6
+- python -m pydoc -w src.exercises.ex7 
   
 
